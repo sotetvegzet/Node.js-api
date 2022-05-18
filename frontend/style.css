@@ -1,0 +1,84 @@
+.container {
+    padding: 16px;
+  }
+  
+  
+  input[type=text], input[type=password], input[type="number"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-table;
+    border-style: groove ;
+    background: lightcyan;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus, input[type="number"]:focus {
+    background-color: rgb(221, 221, 221);
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  
+  .registerbtn {
+    background-color: #0407aa;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: 10cm;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity:20;
+  }
+  
+  
+  a {
+    color: black;
+    
+  }
+  
+  
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+        table {
+            background-color: lightcyan;
+            border-collapse:separate;
+            border:solid black 1px;
+            border-radius:6px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        td, th {
+            border-left:solid black 1px;
+            border-top:solid black 1px;
+        }
+
+        th {
+            background-color: blue;
+            border-top: none;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        td:first-child, th:first-child {
+            border-left: none;
+        }
+
+        h2{
+            color: #5D5D5D;
+            text-align: center;
+        }
